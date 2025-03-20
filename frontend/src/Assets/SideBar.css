@@ -1,0 +1,138 @@
+/* .sidebar {
+    display: flex;
+    width: 15%;
+    height: 100vh;
+    background-color: #F2F0EF;
+    color: black;
+    top: 0;
+    left: 0;
+    position: fixed;
+}
+
+.sidebar-menu-list {
+    display: flex;
+    flex-direction: column;
+    margin-top: 2rem;
+    padding: 1rem;
+    font-size: 0.55rem;
+    width: 100%;
+}
+
+.sidebar-menu-list li {
+    display: flex;
+    height: 2rem;
+    border-radius: 0.5rem;
+    padding: 0.25rem 0.5rem 0.25rem;
+    width: 100%;
+    align-items: center;
+    justify-content: start;
+    gap: 1rem;
+    margin-bottom: 1rem;
+    list-style-type: none;
+}
+
+.sidebar-menu-list li:hover {
+    background-color: #40B5AD;
+}
+
+.sidebar-menu-list li:active {
+    background-color: #40B5AD;
+}
+
+.sidebar-menu-list li a {
+    text-decoration: none;
+    display: flex;
+    gap: 0.5rem;
+    align-items: center;
+    color: black;
+}
+
+.menu-text
+ {
+    align-items: center;
+ }
+.sidebar-menu-list li svg {
+    width: 0.55rem;
+}
+
+@media screen and (max-width: 576px){
+    .sidebar-menu-list li {
+    }
+}
+
+
+@media screen and (max-width: 776px){
+    .sidebar-menu-list li {
+    }
+}
+
+
+@media screen and (max-width: 992px){
+    .sidebar-menu-list li {
+    }
+}
+
+
+@media screen and (max-width: 1440px){
+    .sidebar-menu-list li {
+    }
+}
+
+
+/* Link{
+    text-decoration: none;
+    color: black;
+}
+a{
+    text-decoration: none;
+    color: black;
+    padding: 0;
+}
+.sidebar {
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+    background-color: #ffffff;
+    padding: 20px;
+    padding-right: 0;
+    position: fixed;
+    height: 100%;
+    top: 0;
+    left: 0;
+    border-right: 1px solid #ddd;
+}
+
+
+@media screen and (max-width: 1499px){
+    .sidebar{
+        width: 120px;
+    }
+}
+
+.sidebar h2 {
+    font-size: 22px;
+    margin-bottom: 20px;
+    text-decoration: none;
+}
+
+.sidebar ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.sidebar ul li {
+    margin-bottom: 15px;
+}
+
+.sidebar ul li a {
+    text-decoration: none;
+    color: #333;
+    font-size: 18px;
+    display: block;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.sidebar ul li a:hover {
+    background-color: #ddd;
+}  */

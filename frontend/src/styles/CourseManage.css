@@ -1,0 +1,239 @@
+/* General Styles */
+.cunt{
+  display: flex;
+}
+table{
+  width: 100%;
+  margin-top: 2.5%;
+  border-collapse: collapse;
+}
+th{
+  border-bottom: 1px solid rgba(0,0,0,0.1);
+  border-right: 1px solid rgba(0,0,0,0.1);
+  background-color: #333;
+  color: white;
+  font-weight: 300;
+  text-align: left;
+  padding: 0.25%;
+}
+td{
+  border-right: 1px solid rgba(0,0,0,0.1);
+  border-bottom: 1px solid rgba(0,0,0,0.1);
+  padding: 0.25%;
+  font-weight: 300;
+}
+tr:hover{
+  background-color: #7776768a;
+}
+#taction{
+  border-right: none;
+}
+#tbutton{
+  text-align: center;
+  border-right: none;
+}
+label{
+  margin-right: 5px;
+}
+input[type=checkbox]{
+  padding: 10px;
+  margin: 2px 2px;
+}
+body {
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+    background-color: #f4f4f9;
+    color: #333;
+  }
+  
+  .course-manage {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    max-width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  /* Navigation Bar */
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #333;
+    padding: 10px 20px;
+    color: white;
+    border-radius: 8px;
+    margin-bottom: 20px;
+  }
+  
+  .navbar-brand {
+    font-size: 24px;
+    font-weight: bold;
+  }
+  
+  /* Header */
+  .CMheader {
+    text-align: center;
+    margin-bottom: 7px;
+  }
+  
+  .CMheader h1 {
+    font-size: 32px;
+    margin-bottom: 10px;
+  }
+  
+  .CMheader p {
+    font-size: 16px;
+    color: #666;
+  }
+  
+  /* Add Course Form */
+  .add-course-form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-bottom: 20px;
+  }
+  
+  .add-course-form input {
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .add-course-form button {
+    padding: 10px;
+    background-color: #333;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .add-course-form button:hover {
+    background-color: #333;
+  }
+  
+  /* Course List */
+  .course-list {
+    margin-top: 30px;
+  }
+  
+  .course-list ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .course-list li {
+    padding: 15px;
+    border: 1px solid #ddd;
+    margin-bottom: 15px;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .course-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+  
+  .course-title {
+    font-size: 20px;
+    font-weight: bold;
+  }
+  
+  .course-description {
+    font-size: 14px;
+    color: #666;
+    margin-top: 5px;
+  }
+  
+  .delete-btn {
+    background-color: #95332c;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .delete-btn:hover {
+    background-color: #95332c;
+  }
+  
+  /* Playlist Section */
+  .playlist-section {
+    display: flex;
+    gap: 10px;
+    margin-top: 10px;
+  }
+  
+  .playlist-section input {
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    flex: 1;
+  }
+  
+  .playlist-section button {
+    padding: 8px 12px;
+    background-color: #333;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .playlist-section button:hover {
+    background-color: #333;
+  }
+  
+  .playlist-list {
+    margin-top: 10px;
+    padding-left: 20px;
+  }
+  
+  .playlist-list li {
+    display: flex;
+    justify-content: space-between;
+    padding: 8px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    margin-top: 5px;
+    background-color: #f9f9f9;
+  }
+
+  .line{
+    margin-bottom: 7px;
+    opacity: 30%;
+    color: #666;
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 600px) {
+    .navbar {
+      flex-direction: column;
+      gap: 10px;
+    }
+  
+    .add-course-form {
+      flex-direction: column;
+    }
+  
+    .course-header {
+      flex-direction: column;
+      align-items: flex-start;
+    }
+  
+    .playlist-section {
+      flex-direction: column;
+    }
+  }

@@ -1,0 +1,81 @@
+.header-container {
+    display: flex;
+    align-items: center;
+    border-left: 0.05rem solid #e5e5e5;
+    border-right: 0.05rem dashed #e5e5e5;
+    border-top: 0.05rem solid #e5e5e5;
+    border-bottom: 0.05rem solid #e5e5e5;
+    padding: 0.5rem 0rem;
+    height: 2rem;
+    width: 100%;
+    left: 4rem;
+}
+
+.header-logo {
+    justify-items: flex-start;
+}
+
+.side-menu {
+    display: flex;
+    flex: 1;
+    font-size: 0.65rem;
+    gap: 1rem;
+    margin-right: 1rem;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+@keyframes rotating {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+.profile-logo {
+    border-radius: 50%;
+    background-color: transparent;
+    border: 0.07rem solid #333;
+    width: 1.05rem;
+    height: 1.05rem;
+}
+
+.settings-icon {
+    color: #333;
+    animation: rotating 6s ease-in-out infinite;
+}
+
+.header-expanded-container {
+    width: 100%;
+    display: flex;
+
+}
+
+.header-expanded-logo {
+    width: 18%;
+    border-right: 0.05rem dashed #e5e5e5;
+}
+
+@media screen and (max-width: 776px) {
+    .header-container {
+        height: 1.5rem;
+    }
+
+    .header-collapsed-container {
+        display: flex;
+        width: 100%;
+        align-items: center;
+        justify-items: center;
+    }
+
+    .header-logo {
+        justify-items: center;
+        flex: 1;
+    }
+
+    .side-menu {
+        width: auto;
+    }
+}
