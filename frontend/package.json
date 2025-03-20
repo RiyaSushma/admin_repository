@@ -8,7 +8,7 @@
     "client": "npm run dev --prefix frontend",
     "server": "cd backend && node server.js",
     "build": "vite build",
-    "start": "concurrently \"npm run client\" \"npm run server\"", 
+    "start": "concurrently \"npm run client\" \"npm run server\"",
     "lint": "eslint .",
     "preview": "vite preview",
     "install-all": "npm install && npm install --prefix src/backend"
@@ -36,6 +36,7 @@
     "pg": "^8.13.1",
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
+    "react-redux": "^9.2.0",
     "react-router-dom": "^7.1.5"
   },
   "devDependencies": {
