@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
 import { Link } from 'react-router-dom';
-import "./SideBar.css";
+import "./Sidebar.css";
 import { SquaresFour, GraduationCap, Atom, UserCircle, ChartLine, UsersFour, List } from "@phosphor-icons/react";
 import Logo from "../Logo/Logo";
 
