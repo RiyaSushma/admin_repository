@@ -23,6 +23,7 @@
     "@mui/x-data-grid": "^7.24.1",
     "@mui/x-date-pickers": "^7.24.1",
     "@phosphor-icons/react": "^2.1.7",
+    "@reduxjs/toolkit": "^2.6.1",
     "axios": "^1.7.9",
     "bcryptjs": "^2.4.3",
     "concurrently": "^9.1.2",
